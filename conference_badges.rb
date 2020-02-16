@@ -14,8 +14,8 @@ end
 end
    
    def printer(attendees)
- batch_badge_creator (attendees).each do |b| puts b
- end
- assign_rooms (attendees).each do |a| puts a
- end
+  printer_list = batch_badge_creator(attendies).concat assign_rooms(attendies)
+  printer_list.each do |line|
+    puts line
+  end
 end
