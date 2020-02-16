@@ -7,3 +7,5 @@ end
  people.collect do |name| badge_maker (name)
  end
  end
+ 
+ def assign_rooms 
