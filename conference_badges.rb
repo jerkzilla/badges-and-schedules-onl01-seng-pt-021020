@@ -8,4 +8,3 @@ end
  end
  end
  
- def assign_rooms 
