@@ -13,7 +13,7 @@ end
 end
 end
    
-   def printer (attendees)
+   def printer(attendees)
  batch_badge_creator (attendees).each do |b| puts b
  end
  assign_rooms (attendees).each do |a| puts a
